@@ -1,0 +1,24 @@
+<h1 style="text-align: center;">Add friends</h1>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <form>
+                        <label class="form-label" for="name">Name</label>
+                        <input type="text" [(ngModel)]="name" name="name" class="form-control" placeholder="Enter name">
+                        <label class="form-label" for="friendname">Friend Name</label>
+                        <input type="text" [(ngModel)]="friendName" name="friendName" class="form-control" placeholder="Enter friend name">
+                        <label class="form-label" for="friendnickname">Friend nickname</label>
+                        <input type="text" [(ngModel)]="friendNickName" name="friendNickName" class="form-control" placeholder="Enter nickname">
+                        <label class="form-label" for="description">Description</label>
+                        <input type="text" [(ngModel)]="DescribeYourFriend" name="DescribeYourFriend" class="form-control"  placeholder="Enter description">
+                        <button (click)="valueRead()" class="btn btn-success">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
